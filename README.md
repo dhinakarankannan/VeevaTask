@@ -25,3 +25,8 @@ Scenarios Covered:
 17) testDuplicateDataBothFiles - The compared CSV files has duplicate entry on both files (files used - file17 and file18)
 18) testMissingRows - The compared CSV files in which one of the file has a entire row missing (files used - file1 and file19)
 19) testMissingColumns - The compared CSV files in which one of the file has a entire column missing (files used - file1 and file20)
+
+
+Pass / Fail Classifiaction to Generate Report:
+If the Files are identical --> return Pass
+If the Files have differences --> return Fail
